@@ -1,4 +1,4 @@
-# ePortfolio TESTING
+# ePortfolio 
 CS-499 Computer Science Capstone 2025
 
 # Swathi Siva's ePortfolio
