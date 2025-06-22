@@ -22,7 +22,7 @@ Each artifact in this portfolio is based on the same core project, which is a fu
 
 # Code Review
 The following video reviews my source code and how my enhancements will work. 
-[Code Review] (https://youtu.be/Jjmwa9_vUKg)
+[Code Review](https://youtu.be/Jjmwa9_vUKg)
 
 # Artifact 1: Unit and Integration Test
 # Artifact 2: Search and Ranking
