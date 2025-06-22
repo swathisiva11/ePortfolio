@@ -25,8 +25,41 @@ The following video reviews my source code and how my enhancements will work.
 [Code Review](https://youtu.be/Jjmwa9_vUKg)
 
 # Artifact 1: Unit and Integration Test
+The code for the first enhancement that shows the Unit and Integration Test has been pushed to the repository as a branch called [Enhancement 1](https://github.com/swathisiva11/cs465-fullstack/tree/enhancement1). 
+## Narrative 1:
+This artifact is an enhancement of a full-stack web application I worked on using Angular for the frontend and Express with MongoDB for the backend. I added a Trip Detail View feature and built a full set of tests to make sure everything worked correctly. On the frontend, I created a TripDataService to handle creating, reading, updating, and deleting trips. I used testing tools like Karma and Jasmine to test frontend services and components, and I used Jest and Supertest-like methods to test the backend. I also made sure that the frontend was successfully sending and receiving data from the backend using HTTP requests.
+
+I chose to include this artifact in my ePortfolio because it shows my ability to work across the full stack. It highlights important skills such as building and testing features, connecting frontend services to backend APIs, and making sure everything works together smoothly. This project demonstrates that I can write clean, organized code and test it thoroughly. The backend tests checked whether the right endpoints were being used and whether the responses were accurate. On the frontend, I confirmed that the services made correct HTTP calls and that components displayed and updated data as expected.
+
+This artifact helped me achieve the goals I set in Module One for this course. My goal was to improve my skills in both client-side and server-side development, including testing. I feel that I not only met this goal but also made more progress than I expected. I added integration tests and became more confident in debugging issues that happen between the frontend and backend parts of the application. These are valuable skills that are often used in real software development jobs.
+
+The process of enhancing and testing this application taught me a lot. At first, I faced some technical issues like NullInjectorError and missing dependencies in my tests. These challenges pushed me to understand Angular’s dependency injection better. I learned how to use the HttpClientTestingModule to isolate service logic and create useful mock data. I also saw how detailed Angular’s testing tools can be, especially when working with expected URLs and responses. This helped me become more careful and precise in my code.
+
+Overall, this project helped me grow as a developer. I learned how to approach debugging with a clear plan, how to connect the frontend and backend effectively, and how important it is to write tests early in the development process. These skills are useful not only for developers but also for people who manage software projects. I look forward to include this artifact in my ePortfolio because it represents my progress in both building and testing real-world software applications.
+
 # Artifact 2: Search and Ranking
+The code for the first enhancement that shows the Unit and Integration Test has been pushed to the repository as a branch called [Enhancement 2](https://github.com/swathisiva11/cs465-fullstack/tree/enhancement2). 
+## Narrative 2:
+As part of the enhancements to the Travlr application, I worked on adding a keyword-based search feature with a ranking system. This feature lets users type in a keyword and see a list of trips that best match what they’re looking for. I built this feature to improve how easily users can find relevant trips, making the overall experience faster and more helpful.
+
+On the backend, I used Node.js, Express, and MongoDB to create a new GET endpoint: /api/trips/search?q=keyword. I wrote a scoring algorithm that gives each trip a rank based on how well it matches the search term. The trip name gets 2 points for a match, while the resort name and description each get 1 point. Only trips with a score above zero are shown, and they are sorted by how relevant they are to the keyword. The rank is calculated in real-time and not stored in the database, which helps keep the data clean.
+
+On the frontend, I used Angular to add a search input box and button in the TripListingComponent. I connected this to the backend search using the TripDataService. The search results are shown with a label like “X Stars” to indicate how relevant they are. I also made sure that the user interface gives feedback as users search, such as showing messages in the results. To keep the code safe and clean, I made the rank score optional in the Trip interface.
+
+I chose to include this enhancement in my ePortfolio because it shows my skills in both algorithms and data structures. It uses arrays and maps, as well as logic to filter and sort the data in a meaningful way. It also highlights my ability to connect backend logic to frontend components in a full-stack application. This artifact shows that I can solve real-world problems with practical code and design.
+
+This enhancement helped me meet the course outcomes I set out to achieve at the beginning of the project. I applied data structure and algorithm knowledge to improve an existing project and documented and tested the solution. Through the process, I learned more about writing clean and efficient search algorithms and how to make the results meaningful for users. One challenge was balancing performance with clarity in the ranking system, but testing helped me fine-tune it. Overall, this project taught me how to combine backend logic with frontend usability to create a feature that adds real value.
+
 # Artifact 3: Trip Popularity Analysis
+The code for the first enhancement that shows the Unit and Integration Test has been pushed to the repository as a branch called [Enhancement 3](https://github.com/swathisiva11/cs465-fullstack/tree/enhancement3). 
+## Narrative 3:
+To meet the requirement for the database category, I implemented a Trip Popularity Analysis feature that combines data mining techniques with RESTful API design to track and analyze user search behavior. The goal was to simulate a real-world use case where backend analytics can enhance frontend user experience.
+
+Each time a user performs a keyword search for a trip, the search term is automatically logged into a new MongoDB collection called SearchLog. This functionality was integrated into the existing search controller using Mongoose. A new REST API endpoint, /api/trips/topsearches, was developed to query this collection using MongoDB’s aggregation framework. This endpoint returns the top five most frequently searched terms, effectively surfacing popular destinations in real time.
+
+On the frontend, I built a standalone Angular component (TopSearchesComponent) to consume this REST API and display the results under “Trending Destinations.” The component dynamically updates every 10 seconds, allowing users to see search trends without refreshing the page. This demonstrates the use of REST APIs for exposing backend analytics, as well as how databases can support dynamic, user-driven features that improve the overall application experience. 
+
+This enhancement helped me meet multiple course outcomes I had set in Module One, including demonstrating an ability to enhance existing software with new features, applying software development principles in a full-stack environment, and documenting my process clearly.
 
 ## 🔧 Projects
 
