@@ -20,6 +20,13 @@ My artifact enhancements represent my technical depth in each of the following t
 ### How My Artifacts Work Together
 Each artifact in this portfolio is based on the same core project, which is a full stack travel site, but represents a different enhancement that maps to a specific course outcome. This intentional reuse allows me to demonstrate layered improvements within a cohesive system. As you move through my portfolio, you’ll see how I built on my original work to make it more modular, searchable, data-driven, and insight-rich. Together, these artifacts represent not just a series of assignments but a holistic demonstration of my skillset in action.
 
+# Code Review
+The following video reviews my source code and how my enhancements will work. 
+[Code Review] (https://youtu.be/Jjmwa9_vUKg)
+
+# Artifact 1: Unit and Integration Test
+# Artifact 2: Search and Ranking
+# Artifact 3: Trip Popularity Analysis
 
 ## 🔧 Projects
 
