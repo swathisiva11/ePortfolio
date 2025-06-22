@@ -24,7 +24,12 @@ Each artifact in this portfolio is based on the same core project, which is a fu
 The following video reviews my source code and how my enhancements will work. 
 [Code Review](https://youtu.be/Jjmwa9_vUKg)
 
-# Artifact 1: Unit and Integration Test
+# Original Code
+The original code is part of a project I worked on in a previous course which involved building a full stack web application using technologies such as Angular, Express, Node.js, and MongoDB. The project allowed me to apply borth frontend and backend development principles while gaining experience in software architecture and design. 
+
+This original code is part of the [Project Repository](https://github.com/swathisiva11/cs465-fullstack/branches).
+
+# Enhancement 1: Unit and Integration Test
 The code for the first enhancement that shows the Unit and Integration Test has been pushed to the repository as a branch called [Enhancement 1](https://github.com/swathisiva11/cs465-fullstack/tree/enhancement1). 
 ## Narrative 1:
 This artifact is an enhancement of a full-stack web application I worked on using Angular for the frontend and Express with MongoDB for the backend. I added a Trip Detail View feature and built a full set of tests to make sure everything worked correctly. On the frontend, I created a TripDataService to handle creating, reading, updating, and deleting trips. I used testing tools like Karma and Jasmine to test frontend services and components, and I used Jest and Supertest-like methods to test the backend. I also made sure that the frontend was successfully sending and receiving data from the backend using HTTP requests.
@@ -37,7 +42,7 @@ The process of enhancing and testing this application taught me a lot. At first,
 
 Overall, this project helped me grow as a developer. I learned how to approach debugging with a clear plan, how to connect the frontend and backend effectively, and how important it is to write tests early in the development process. These skills are useful not only for developers but also for people who manage software projects. I look forward to include this artifact in my ePortfolio because it represents my progress in both building and testing real-world software applications.
 
-# Artifact 2: Search and Ranking
+# Enhancement 2: Search and Ranking
 The code for the first enhancement that shows the Unit and Integration Test has been pushed to the repository as a branch called [Enhancement 2](https://github.com/swathisiva11/cs465-fullstack/tree/enhancement2). 
 ## Narrative 2:
 As part of the enhancements to the Travlr application, I worked on adding a keyword-based search feature with a ranking system. This feature lets users type in a keyword and see a list of trips that best match what they’re looking for. I built this feature to improve how easily users can find relevant trips, making the overall experience faster and more helpful.
@@ -50,7 +55,7 @@ I chose to include this enhancement in my ePortfolio because it shows my skills 
 
 This enhancement helped me meet the course outcomes I set out to achieve at the beginning of the project. I applied data structure and algorithm knowledge to improve an existing project and documented and tested the solution. Through the process, I learned more about writing clean and efficient search algorithms and how to make the results meaningful for users. One challenge was balancing performance with clarity in the ranking system, but testing helped me fine-tune it. Overall, this project taught me how to combine backend logic with frontend usability to create a feature that adds real value.
 
-# Artifact 3: Trip Popularity Analysis
+# Enhancement 3: Trip Popularity Analysis
 The code for the first enhancement that shows the Unit and Integration Test has been pushed to the repository as a branch called [Enhancement 3](https://github.com/swathisiva11/cs465-fullstack/tree/enhancement3). 
 ## Narrative 3:
 To meet the requirement for the database category, I implemented a Trip Popularity Analysis feature that combines data mining techniques with RESTful API design to track and analyze user search behavior. The goal was to simulate a real-world use case where backend analytics can enhance frontend user experience.
@@ -61,9 +66,4 @@ On the frontend, I built a standalone Angular component (TopSearchesComponent) t
 
 This enhancement helped me meet multiple course outcomes I had set in Module One, including demonstrating an ability to enhance existing software with new features, applying software development principles in a full-stack environment, and documenting my process clearly.
 
-## 🔧 Projects
-
-### 1. Full Stack Development
-**Description**: In this project, I implemented several types of frontend development, including static HTML files, server-rendered pages using Express with Handlebars templates, and a dynamic Single Page Application (SPA) built using Angular.
-- [GitHub Repository](https://github.com/swathisiva11/cs465-fullstack) 
 
